@@ -1,0 +1,309 @@
+
+.front-header{
+  display: flex;
+  padding-top: 10px; 
+  padding-bottom: 75px;
+}
+
+.front-logo{
+  width: 175px; 
+}
+
+.nav-bar{
+  display: flex;
+  margin: auto;
+  margin-right: 10px;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+}
+
+.dash-item{
+  padding-right: 25px; 
+  text-decoration: none;
+  color: var(--main-grey);
+}
+
+.dash-item a{
+  text-decoration: none;
+  color: var(--main-grey);
+  font-size: var(--text_4);
+  font-weight: 200; 
+}
+
+.dash-item a:hover{
+  color: var(--main-color);
+}
+
+.dash-item button{
+  color: var(--main-white);
+  font-size: var(--text_2);
+  font-weight: 500;
+}
+
+.intro{
+  height: 620px; 
+  background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
+}
+
+
+.empower-intro{
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px; 
+}
+
+.empower-intro h3{
+  font-size: 65px; 
+  line-height: 75px;
+  font-weight: 300;
+}
+
+.empower-intro .circle-sm:nth-child(2){
+  background: url(./saas-project-assets/logo_icons/google.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 920px; 
+  top: 150px;
+  
+}
+.empower-intro .circle-lg:nth-child(3){
+  background: url(./saas-project-assets/logo_icons/atlassian.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 1050px;
+  top: 160px;
+  
+}
+.empower-intro .circle-lg:nth-child(4){
+  background: url(./saas-project-assets/logo_icons/asana.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 1275px;
+  top: 160px;
+  
+}
+
+.power{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.power h1{
+  font-size: var(--text_3);
+  color: var(--main-grey);
+}
+
+.power .circle-lg:nth-child(2){
+  background: url(./saas-project-assets/logo_icons/weave.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 1155px;
+  top: 350px;
+}
+
+.power .circle-lg:nth-child(3){
+  background: url(./saas-project-assets/logo_icons/paypal.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 875px;
+  top: 350px;
+}
+
+.power .circle-sm:nth-child(4){
+  background: url(./saas-project-assets/logo_icons/google-A.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 1050px;
+  top: 500px;
+}
+.power .circle-lg:nth-child(5){
+  background: url(./saas-project-assets/logo_icons/calendar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  left: 1250px;
+  top: 500px;
+}
+
+.learn-more{
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+}
+
+.learn-more .btn{
+  width: 150px; 
+  height: 50px;
+}
+
+
+.inner-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.inner-btn h1{
+  font-size: var(--text_3);
+}
+
+.side-text{
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  color: var(--main-color);
+  font-size: var(--title_1);
+  font-weight: 500;
+}
+
+.title_undertext{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.title_undertext h1{
+  font-size: var(--title_4);
+  font-weight: 700;
+}
+
+.title_undertext h3{
+  font-size: var(--text_3);
+  font-weight: 300;
+  color: grey;
+}
+
+.design-card{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.card-info:hover{
+  background-color: var(--bullet-line);
+  cursor: pointer;
+}
+
+.card-info{
+  padding: 20px; 
+}
+
+.card-info img{
+  height: 58px;
+  width: 58px;
+}
+
+.card-info h3{
+  color: var(--main-black);
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-info p{
+  color: var(--main-black);
+  font-size: var(--text_2); 
+  line-height: 30px;
+  color: grey;
+}
+
+.card-info h4{
+  color: var(--main-black);
+  font-weight: 700;
+  padding-top: 30px; 
+  color: var(--main-color)
+  
+}
+
+.sketch{
+  display: flex;
+  align-items: center;
+}
+
+.sketch .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px; 
+  width: 60px;
+  height: 23px;
+  background: #01C9A7;
+  border-radius: 15px;
+ 
+}
+
+.banner-content{
+  display: flex;
+  justify-content: space-between;
+  background: #F8FAFE;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 30px;
+  gap: 40px;
+}
+
+.perspective h3{
+  font-weight: 400;
+}
+
+.banner-content img{
+  margin-top: 100px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

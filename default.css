@@ -1,0 +1,152 @@
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+:root{
+
+--text_1: 12px; 
+--text_2: 14px; 
+--text_3: 16px; 
+--text_4: 18px; 
+--text_5: 20px; 
+--text_6: 22px; 
+
+--title_1: 16px; 
+--title_2: 20px; 
+--title_3: 25px; 
+--title_4: 30px; 
+--title_5: 40px; 
+--title-6: 60px; 
+
+--main-color: #2476ff; 
+--main-grey: #677788;
+--main-black: #000000; 
+--main-white:  #FFFFFF; 
+--btn-sketch: #01C9A7;
+--off-white: #F8FAFE; 
+--circle-dots: #ECF2FF; 
+--footer-bck: #20335B; 
+--bullet-line: #E6E9F2; 
+}
+
+*,
+::after,
+::before{
+    box-sizing: border-box; 
+}
+
+
+.container-template{
+  margin: 0px; 
+  margin-bottom: 150px;
+  padding: 30px;  
+}
+
+.btn{
+  display: block; 
+  height: 40px; 
+  width: 100px;
+  border-radius: 30px; 
+  border: none ;
+  background-color: #2476ff; 
+  color: var(--main-white);
+  font-size: var(--text_1);
+ }
+
+
+.circle-sm{
+  border-radius: 50%;
+  height: 60px; 
+  width: 60px; 
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+}
+
+.circle-lg{
+  border-radius: 50%;
+  height: 100px; 
+  width: 100px; 
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+}
+
+.banner-list{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 34px;
+
+width: 1024px;
+height: 145px;
+}
+
+.bullet{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 239px;
+}
+
+.circles{
+  border-radius: 50%;
+  height: 60px; 
+  width: 60px; 
+  background-color: #20335B; 
+  
+}
+
+
+
+
+.benefit-card{
+  width: 325px; 
+  height: 350px; 
+  box-shadow: 0px 10px 20px 0px #00000026;
+  border-radius: 8px;
+
+}
+
+.title_undertext{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title_undertext h1{
+  font-size: var(--title_4);
+  font-weight: 700;
+}
+
+.title_undertext h3{
+  font-size: var(--text_3);
+  font-weight: 300;
+  color: grey;
+}
+
+.benefit-icon{
+  height: 50px; 
+  width: 50px; 
+}
+
+.video-button{
+  border-radius: 35px;
+}
+
+.pricing-icon{
+  height: 50px; 
+  width: 50px; 
+}
