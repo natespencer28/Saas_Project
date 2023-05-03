@@ -289,6 +289,16 @@
   top: -55px;
 }
 
+.empty{
+  width: 169.5px;
+  height: 1px;
+  border: solid;
+  color: white; 
+  position: relative;
+  left: 120px;
+  top: -55px;
+}
+
 
 
 
