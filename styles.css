@@ -207,7 +207,7 @@
   justify-content: space-between; 
 }
 
-.card-info:hover{
+.benefit-card:hover{
   background-color: var(--bullet-line);
   cursor: pointer;
 }
@@ -280,12 +280,12 @@
 }
 
 .line{
-  width: 206.5px;
+  width: 250.5px;
   height: 1px;
   border: solid;
   color: #E6E9F2;
   position: relative;
-  left: 137px;
+  left: 162px;
   top: -55px;
 }
 
