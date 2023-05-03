@@ -307,6 +307,23 @@ background-position: 10%;
 background-size: cover;
 }
 
+.banner-2 .circle-lg{
+  position: relative;
+  left: 675px;
+  top: 230px;  
+  background-color: white;
+}
+
+.banner-2 .circle-lg span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 35px;
+  font-weight: 900;
+  cursor: pointer;  
+}
+
 
 
 
