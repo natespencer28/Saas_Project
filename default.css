@@ -85,12 +85,8 @@
 
 .banner-list{
   display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px 34px;
-
-width: 1024px;
-height: 145px;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .bullet{
