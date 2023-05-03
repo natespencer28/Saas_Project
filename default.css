@@ -98,13 +98,33 @@
     width: 239px;
 }
 
+.circles, .circles:before, .circles:after {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	display: block;
+}
+
+.circles:before, .circles:after {
+	position: relative;
+	content: '';
+}
+
 .circles{
   border-radius: 50%;
   height: 60px; 
   width: 60px; 
   background: #ECF2FF;
- 
   
+}
+
+.circles:after {
+	width: 10%;
+	height: 10%;
+  top: 28px;
+	left: 45%;
+	background: #0066FF;
+
 }
 
 .benefit-card{
