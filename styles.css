@@ -326,6 +326,30 @@ background-size: cover;
 
 
 
+.dot-profilepic{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.pic{
+  position: relative;
+  top: -50px;
+  right: 185px;
+}
+
+.dots{
+  height: 420px;
+  width: 245px;
+}
+
+.profile-pic {
+  height: 420px;
+  width: 400px;
+}
+
+
+
 
 
 
