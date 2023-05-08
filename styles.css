@@ -348,6 +348,11 @@ background-size: cover;
   width: 400px;
 }
 
+.comment-container img{
+  height: 35px;
+  margin-left: -75px;
+}
+
 
 
 
