@@ -434,6 +434,11 @@ background-size: cover;
   line-height: 25px;
 }
 
+.grid-inner:nth-child(3){
+  color: grey;
+  letter-spacing: 1px;
+}
+
 .grid-inner img{
   height: 50px;
   width: 50px;
