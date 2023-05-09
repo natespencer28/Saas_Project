@@ -46,7 +46,6 @@
   background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
 }
 
-
 .empower-intro{
   display: flex;
   flex-direction: row;
@@ -68,9 +67,9 @@
   background-color: white;
   position: absolute;
   left: 920px; 
-  top: 150px;
-  
+  top: 150px; 
 }
+
 .empower-intro .circle-lg:nth-child(3){
   background: url(./saas-project-assets/logo_icons/atlassian.png);
   background-size: contain;
@@ -81,8 +80,8 @@
   position: absolute;
   left: 1050px;
   top: 160px;
-  
 }
+
 .empower-intro .circle-lg:nth-child(4){
   background: url(./saas-project-assets/logo_icons/asana.png);
   background-size: contain;
@@ -92,8 +91,7 @@
   background-color: white;
   position: absolute;
   left: 1275px;
-  top: 160px;
-  
+  top: 160px;  
 }
 
 .power{
@@ -142,6 +140,7 @@
   left: 1050px;
   top: 500px;
 }
+
 .power .circle-lg:nth-child(5){
   background: url(./saas-project-assets/logo_icons/calendar.png);
   background-size: contain;
@@ -164,7 +163,6 @@
   width: 150px; 
   height: 50px;
 }
-
 
 .inner-btn{
   display: flex;
@@ -324,12 +322,9 @@ background-size: cover;
   cursor: pointer;  
 }
 
-
-
 .dot-profilepic{
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row; 
 }
 
 .pic{
@@ -388,6 +383,7 @@ background-size: cover;
 
 .pricing-wrapper{
   display: flex;
+  justify-content: space-around;
 }
 
 .price{
@@ -432,15 +428,18 @@ background-size: cover;
 }
 
 .grid-inner{
+  display: flex;
   margin-left: 20px;
   padding-bottom: 10px;
+  line-height: 25px;
 }
 
 .grid-inner img{
   height: 50px;
   width: 50px;
-
 }
+
+.grid:nth-child(12)
 
 
 
