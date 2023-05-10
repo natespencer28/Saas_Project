@@ -446,9 +446,10 @@ background-size: cover;
 
 .hire-container{
     display: flex;
+    justify-content: space-around;
     background-color: rgb(16, 16, 78);
     color: white;
-    height: 500px;
+    height: 600px;
     width: auto;
     align-content: center;
     align-items: center;
@@ -466,10 +467,11 @@ background-size: cover;
 
 .title p{
   font-size: var(--text_3);
+  color: rgb(128, 128, 128, 0.5);
 }
 
 .title .line{
-  width: 100.5px;
+  width: 200.5px;
   height: 1px;
   border: solid;
   color: #E6E9F2;
@@ -479,7 +481,7 @@ background-size: cover;
 }
 
 .title h4{
-
+  font-style: italic;
 }
 
 .title h2{
@@ -487,7 +489,16 @@ background-size: cover;
 }
 
 .title span{
+  color: rgb(128, 128, 128, 0.5);
+}
 
+.title img{
+  margin-left: 10px; 
+}
+
+.title .circle-lg{
+  height: 80px;
+  width: 80px;
 }
 
 
