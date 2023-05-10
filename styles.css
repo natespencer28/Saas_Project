@@ -444,6 +444,22 @@ background-size: cover;
   width: 50px;
 }
 
+.hire-container{
+  display: flex;
+  background-color: rgb(16, 16, 78);
+  color: white; 
+}
+
+.title h3{
+  font-size: var(--title_5);
+  margin-left: 50px;
+}
+
+.title p{
+  font-size: var(--text_3);
+  margin-left: 50px;
+}
+
 
 
 
