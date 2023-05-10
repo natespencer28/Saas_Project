@@ -445,20 +445,53 @@ background-size: cover;
 }
 
 .hire-container{
-  display: flex;
-  background-color: rgb(16, 16, 78);
-  color: white; 
+    display: flex;
+    background-color: rgb(16, 16, 78);
+    color: white;
+    height: 500px;
+    width: auto;
+    align-content: center;
+    align-items: center;
+  
+}
+
+.title{
+  margin-left: 50px; 
+  margin-bottom: 50px;
 }
 
 .title h3{
   font-size: var(--title_5);
-  margin-left: 50px;
 }
 
 .title p{
   font-size: var(--text_3);
-  margin-left: 50px;
 }
+
+.title .line{
+  width: 100.5px;
+  height: 1px;
+  border: solid;
+  color: #E6E9F2;
+  position: relative;
+  left: 0;
+  top: 25px;
+}
+
+.title h4{
+
+}
+
+.title h2{
+
+}
+
+.title span{
+
+}
+
+
+
 
 
 
