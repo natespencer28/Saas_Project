@@ -449,7 +449,7 @@ background-size: cover;
     justify-content: space-around;
     background-color: rgb(16, 16, 78);
     color: white;
-    height: 600px;
+    height: 700px;
     width: auto;
     align-content: center;
     align-items: center;
@@ -499,6 +499,34 @@ background-size: cover;
 .title .circle-lg{
   height: 80px;
   width: 80px;
+}
+
+.form{
+  height: 650px;
+  padding-top: 25px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  border: solid 2px grey;
+}
+
+.form p{
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.names{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+}
+
+.names input, .names select{
+  border-radius: 8px;
+  width: 200px;
+  border: 1px solid rgb(128, 128, 128, 0.5);
 }
 
 
