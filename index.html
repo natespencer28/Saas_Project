@@ -316,12 +316,12 @@
     <form class="form" action="/blank">
       <p>Fill out the form and we will be in touch as soon as possible!</p>
       <div class="names">
-        <input type="text" id="first" name="first" placeholder="First Name">
-        <input type="text" id="last" name="last" placeholder="Last Name">
+        <input type="text" id="first" name="first" placeholder=" First Name">
+        <input type="text" id="last" name="last" placeholder=" Last Name">
       </div>
       <div class="names">
-        <input type="text" id="first" name="first" placeholder="First Name">
-        <input type="text" id="last" name="last" placeholder="Last Name">
+        <input type="text" id="first" name="first" placeholder=" First Name">
+        <input type="text" id="last" name="last" placeholder=" Last Name">
       </div>
       <div class="names">
           <select name="budget" id="budget">
@@ -330,11 +330,24 @@
             <option value="3K - 4K">3K - 4k</option>
             <option value="5K+">5K+</option>
           </select> 
-          <select name="budget" id="budget">
-            <option value="1K - 2K">1K - 2k</option>
-            <option value="1K - 2K">1K - 2k</option>
+          <select name="country" id="country">
+            <option value="country" aria-placeholder, selected, hidden>Country</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Panama">Panama</option>
           </select> 
       </div>
+      <div class="text-box">
+       <textarea name="box" id="box" cols="58" rows="9" placeholder=" Please tell us about your project, needs, and timeline."></textarea>
+      </div>
+      <div class="check-box">
+        <label class="container">
+          <input type="checkbox">
+          <p>Yes, I would like to recieve email marketing emails <br> from Front. I have the right to opt out at any time. </p>
+        </label>
+      </div>
+      
     </form>
   </div>
   </section>
