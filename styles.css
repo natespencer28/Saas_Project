@@ -447,7 +447,7 @@ background-size: cover;
 .hire-container{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(16, 16, 78);
+    background-color: #20335B;
     color: white;
     height: 700px;
     width: auto;
@@ -541,7 +541,7 @@ textarea{
 }
 
 .check-box{
-  padding-left: 20px;
+  padding-left: 37px;
 }
 
 .check-box input{
@@ -590,6 +590,22 @@ textarea{
   height: 50px;
   width: 120px;
   cursor: pointer;
+  font-size: 15px;
+}
+
+.address{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.address img{
+  height: 50px;
+  width: 125px;
+  padding-bottom: 15px;
+}
+
+.address p{
+  padding-left: 10px;
 }
  
 
