@@ -560,6 +560,21 @@ textarea{
   justify-content: flex-start;
 }
 
+.policy{
+  display: flex;
+  color: black;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.policy h5:hover{
+  color: var(--main-color);
+}
+
+.policy h5{
+  text-decoration: dotted underline;
+}
+
 
  
 
