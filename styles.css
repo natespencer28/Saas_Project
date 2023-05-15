@@ -502,7 +502,7 @@ background-size: cover;
 }
 
 .form{
-  height: 650px;
+  height: 675px;
   padding-top: 25px;
   border: 1px solid white;
   border-radius: 10px;
@@ -575,7 +575,22 @@ textarea{
   text-decoration: dotted underline;
 }
 
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+}
 
+.submit .btn{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  cursor: pointer;
+}
  
 
 
