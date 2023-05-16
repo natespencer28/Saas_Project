@@ -593,6 +593,10 @@ textarea{
   font-size: 15px;
 }
 
+.footer{
+  display: flex;
+}
+
 .address{
   display: flex;
   padding-bottom: 15px;
@@ -606,6 +610,48 @@ textarea{
 
 .address p{
   padding-left: 10px;
+}
+
+.btm-tags{
+  display: flex;
+  margin-left: 200px;
+}
+
+.company-tags, .feature-tags, .doc-tags, .res-tags{
+  list-style: none;
+  padding-right: 100px; 
+}
+
+.top{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.item{
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.item .sketch .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  width: 78px;
+  height: 20px;
+  background: var(--main-color);
+  border-radius: 15px;
+  font-size: 9px;
+}
+
+.item:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.item p{
+  padding-left: 5px;
 }
  
 
