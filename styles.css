@@ -43,11 +43,17 @@
 
 .intro{
   height: 620px; 
-  background:
-  linear-gradient(90deg, rgb(10, 10, 10), 50%, rgba(217, 217, 217, 0) 50%),
-  linear-gradient(173deg, rgba(217, 217, 217, .5) 76.61%, rgba(217, 217, 217, 0) 75%);
-  
+  background: linear-gradient(173deg, rgba(217, 217, 217, .5) 76.61%, rgba(217, 217, 217, 0) 75%);
+}
 
+.intro-2{
+  position: absolute;
+width: 316px;
+height: 443px;
+left: 711.5px;
+top: 0px;
+
+background: linear-gradient(173deg, rgba(217, 217, 217, .5) 76.61%, rgba(217, 217, 217, 0) 75%);
 }
 
 .empower-intro{
