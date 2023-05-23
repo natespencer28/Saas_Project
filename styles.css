@@ -43,7 +43,11 @@
 
 .intro{
   height: 620px; 
-  background: linear-gradient(312.73deg, rgba(217, 217, 217, 0.44) 17.61%, rgba(217, 217, 217, 0) 55.85%);
+  background:
+  linear-gradient(90deg, rgb(10, 10, 10), 50%, rgba(217, 217, 217, 0) 50%),
+  linear-gradient(173deg, rgba(217, 217, 217, .5) 76.61%, rgba(217, 217, 217, 0) 75%);
+  
+
 }
 
 .empower-intro{
@@ -658,6 +662,11 @@ textarea{
   display: flex;
   justify-content: space-around;
 }
+
+.copyright-wrapper .social-icons .icon-box:nth-child(2){
+  background-color: #677788;
+  color: white;
+}
  
 .privacy{
   display: flex;
@@ -677,9 +686,17 @@ textarea{
   margin: auto;
 }
 
+.country-name select{
+  height: 40px;
+  width: 130px;
+  background-color: #ECF2FF;
+  border-radius: 10px;
+  border: none;
+}
+
 .copyright{
   text-align: center;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .disclaimer{
