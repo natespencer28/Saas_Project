@@ -1,10 +1,12 @@
 @media screen and (max-width: 768px) {
-
-  .dash-item{
+.intro{
+  margin-bottom: 150px;
+}
+.dash-item{
     display: none;
   }
   
-  .hamburger {
+.hamburger {
     display: block;
     cursor: pointer;
     margin-right: 25px;
@@ -15,7 +17,24 @@
   align-items: center;
   text-align: center;
 }
- }
+
+.empower-intro .circle-sm:nth-child(2){
+  position: absolute;
+  left: 100px; 
+  top: 500px; 
+  
+}
+.empower-intro .circle-lg:nth-child(3){
+  position: absolute;
+  left: 320px; 
+  top: 505px; 
+}
+.empower-intro .circle-lg:nth-child(4){
+  position: absolute;
+  left: 600px; 
+  top: 505px; 
+}
+
 
 @media screen (min-width: 480px){
 
