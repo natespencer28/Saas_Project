@@ -11,6 +11,10 @@
     cursor: pointer;
     margin-right: 25px;
 }
+
+.intro{
+  margin-bottom: 200px;
+}
 .empower-intro, .power, .learn-more{
   display: flex;
   justify-content: center;
@@ -35,6 +39,81 @@
   top: 505px; 
 }
 
+.power .circle-lg:nth-child(2){
+  position: absolute;
+  left: 460px; 
+  top: 600px; 
+}
+.power .circle-lg:nth-child(3){
+  position: absolute;
+  left: 120px; 
+  top: 600px; 
+}
+.power .circle-sm:nth-child(4){
+  position: absolute;
+  left: 250px; 
+  top: 750px; 
+}
+.power .circle-lg:nth-child(5){
+  position: absolute;
+  left: 550px; 
+  top: 750px; 
+}
+
+.design-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  row-gap: 25px;
+}
+
+.benefit-card{
+  height: 310px;
+}
+
+.banner-content{
+  flex-wrap: wrap; 
+}
+
+.banner-2 .circle-lg{
+  left: 325px;
+}
+
+.bullet{
+  width: 150px;
+}
+
+.line{
+  width: 100px;
+  left: 90px;  
+}
+
+.dot-profilepic{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.dots{
+  position: relative;
+  left: 91px;
+}
+
+.pic{
+  right: 84px;
+}
+
+.review-container{
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 75px;
+}
+
+.logo-item{
+  width: 100px;
+}
 
 @media screen (min-width: 480px){
 

@@ -62,16 +62,6 @@
   
 }
 
-
-.intro-2{
-position: absolute;
-width: 316px;
-height: 443px;
-left: 711.5px;
-top: 0px;
-  background: linear-gradient(173deg, rgba(207, 33, 33, 0.5) 76.61%, rgba(217, 217, 217, 0) 75%);
-}
-
 .empower-intro{
   display: flex;
   flex-direction: row;
