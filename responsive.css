@@ -115,6 +115,55 @@
   width: 100px;
 }
 
+.pricing-wrapper{
+  flex-wrap: wrap;
+}
+.pricing-wrapper .benefit-card{
+  width: 700px;
+}
+
+.price{
+  justify-content: center;
+}
+
+.pricing-contin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-items{
+  padding: 30px; 
+}
+
+.submit{
+  padding-top: 10px;
+}
+.submit .btn{
+  width: 95px;
+  height: 30px
+}
+
+.btm-tags{
+  display: flex;
+  margin-left: 100px;
+  flex-wrap: wrap;
+}
+
+.doc-tags, .res-tags{
+  padding-top: 50px;
+}
+
+.disclaimer{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
+
 @media screen (min-width: 480px){
 
  }
