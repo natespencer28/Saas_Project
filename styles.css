@@ -58,8 +58,10 @@
 
 .intro{
   height: 620px; 
-  background: linear-gradient(173deg, rgba(217, 217, 217, .5) 76.61%, rgba(217, 217, 217, 0) 75%);
-  
+  background-image: linear-gradient(173.73deg, transparent 81%, transparent 81%, white 70% 66%, white), 
+  linear-gradient(105deg, transparent 0%, transparent 75%, #E1E7EF 68%, #E1E7EF 100%), 
+  linear-gradient(to top left, #edeff3, transparent 60%);
+
 }
 
 .empower-intro{
