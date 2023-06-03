@@ -169,134 +169,62 @@
   text-align: center;
 }
 
+}
 
 
+@media screen and (max-width: 480px){
 
-@media screen and (min-width: 480px){
+.front-logo{
+  width: 150px;
+}
 
-
-  .container-template{
-    margin-bottom: 25px;
-  }
-  .front-logo{
-    width: 120px;
-    margin-left: 10px; 
-  }
- }
-
- .empower-intro h3 {
+.empower-intro h3{
   font-size: 30px;
-  line-height: 30px;
- }
+  line-height: 40px;
+}
 
- .empower-intro .circle-sm:nth-child(2) {
+.empower-intro .circle-sm:nth-child(2){
   position: absolute;
-  left: 40px;
+  left: 50px;
   top: 400px;
- }
+}
 
- .empower-intro .circle-lg:nth-child(3) {
+.empower-intro .circle-lg:nth-child(3){
   position: absolute;
-  left: 158px;
-  top: 410px;
- }
+  left: 175px;
+  top: 425px;
+}
 
- .empower-intro .circle-lg:nth-child(4) {
+.empower-intro .circle-lg:nth-child(4){
   position: absolute;
-  left: 330px;
-  top: 410px;
- }
+  left: 350px;
+  top: 425px;
+}
 
- .power .circle-lg:nth-child(3) {
+.power .circle-lg:nth-child(3){
   position: absolute;
-  left: 15px;
-  top: 520px;
- }
+  left: 50px;
+  top: 550px;
+}
 
- .power .circle-lg:nth-child(2) {
+.power .circle-lg:nth-child(5){
   position: absolute;
-  left: 255px;
-  top: 526px;
- }
+  left: 325px;
+  top: 700px;
+}
 
- .power .circle-sm:nth-child(4) {
+.power .circle-sm:nth-child(4){
   position: absolute;
-  left: 120px;
-  top: 650px;
- }
+  left: 150px;
+  top: 690px;
+}
 
- .power .circle-lg:nth-child(5) {
+.power .circle-lg:nth-child(2){
   position: absolute;
-  left: 300px;
-  top: 670px;
- }
-
- .perspective h3{
-  text-align: center;
-    font-size: 30px;
- }
-
- .banner-content img{
-  width: 430px; 
-  margin-top: 50px; 
- }
-
- .line{
-  width: 47px;
-  left: 58px;
- }
-
- .banner-2 .circle-lg {
-  left: 190px;
-  top: 60px;
-}
-
-.banner-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.banner-list span{
-  position: relative;
-  top: 17px;
-}
-
-.bullet{
-  display: -webkit-inline-box;
-  margin-bottom: 15px;
-  margin-left: 25px;
-}
-
-.line{
-  display: none;
-}
-
-.empty{
-  display: none;
-}
-
-.banner-2 {
-  background-image: url(./saas-project-assets/banners/banner_two.jpg);
-  width: 100%;
-  height: 200px;
-  background-position: 10%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.dots {
-  position: relative;
-  left: 20px;
-  top: 25px;
+  left: 260px;
+  top: 550px;
 }
 
 
-.profile-pic {
-  height: 395px;
-  width: 350px;
-  position: absolute;
-  top: 52px;
-  left: -71px;
+
 }
