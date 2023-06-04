@@ -246,6 +246,21 @@
   top: 50px;
 }
 
+.dots{
+  position: relative;
+  left: 33px; 
+}
+
+.profile-pic{
+  height: 420px;
+  width: 350px;
+}
+
+.pic{
+  top: -470px;
+  left: 90px;
+}
+
 
 
 }
