@@ -1,7 +1,4 @@
 @media screen and (max-width: 768px) {
-.container-template{
-  width
-}
 
   .intro{
   margin-bottom: 150px;
@@ -90,7 +87,7 @@
 
 .line{
   width: 100px;
-  left: 90px;  
+  left: 85px;  
 }
 
 .dot-profilepic{
@@ -223,6 +220,24 @@
   position: absolute;
   left: 260px;
   top: 550px;
+}
+
+.perspective h3{
+  text-align: center;
+}
+
+.banner-content img{
+  width: 100%;
+}
+
+.line{
+  left: 57px;
+  width: 45px;
+}
+
+.banner-2{
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
