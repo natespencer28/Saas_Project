@@ -261,6 +261,41 @@
   left: 90px;
 }
 
+.review-container{
+  height: 459px;
+  padding: 0px;
+  margin-top: -350px;
+}
+.world-best{
+  margin-top: -100px;
+}
+
+.companies{
+  display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+}
+
+.title_undertext{
+  margin-top: -150px;
+}
+
+.pricing-wrapper .benefit-card{
+  width: 330px; 
+  height: 375px;
+}
+
+.grid{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 
 }
