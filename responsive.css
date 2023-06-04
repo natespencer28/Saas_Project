@@ -236,8 +236,14 @@
 }
 
 .banner-2{
+  height: 200px; 
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.banner-2 .circle-lg{
+  left: 195px;
+  top: 50px;
 }
 
 
