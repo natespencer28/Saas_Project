@@ -282,6 +282,7 @@
 
 .title_undertext{
   margin-top: -150px;
+  margin-bottom: 35px;
 }
 
 .pricing-wrapper .benefit-card{
@@ -292,6 +293,27 @@
 .grid{
   display: flex;
   flex-direction: column;
+}
+
+.hire-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hire-us{
+  text-align: center;
+}
+
+.line{
+  margin-left: 71px;
+}
+
+.footer{
+  margin-top: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
