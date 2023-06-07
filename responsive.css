@@ -230,8 +230,8 @@
   width: 100%;
 }
 
-.line{
-  left: 57px;
+.banner-list .line{
+  left: 22px;
   width: 45px;
 }
 
@@ -314,6 +314,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btm-tags{
+  display: flex;
+  flex-direction: column;
+}
+
+.company-tags, .feature-tags, .doc-tags, .res-tags{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-wrapper{
+  display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
 
